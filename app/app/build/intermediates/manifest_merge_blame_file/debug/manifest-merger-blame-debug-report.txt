@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kevin.rockapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:7:22-77
+14
+15    <uses-feature
+15-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:9:5-11:35
+16        android:name="android.hardware.camera"
+16-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:10:9-47
+17        android:required="true" />
+17-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:11:9-32
+18    <uses-feature android:name="android.hardware.camera.autofocus" />
+18-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:12:5-70
+18-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:12:19-67
+19
+20    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21
+22    <application
+22-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:14:5-50:19
+23        android:allowBackup="true"
+23-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+24-->[com.android.support:support-compat:28.0.0] C:\Users\harve\.gradle\caches\transforms-2\files-2.1\ccbd3881d3e597a650ace942161206f5\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:17:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:18:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:19:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:20:9-35
+31        android:theme="@style/Theme.RockApp" >
+31-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:21:9-45
+32        <activity
+32-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:23:9-30:20
+33            android:name="com.example.kevin.rockapp.HomeActivity"
+33-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:23:19-47
+34            android:screenOrientation="portrait" >
+34-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:23:49-85
+35            <intent-filter>
+35-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:25:13-28:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:26:17-69
+36-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:26:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:27:17-77
+38-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:27:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:32:9-43:20
+42            android:name="com.example.kevin.rockapp.MainActivity"
+42-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:34:13-41
+43            android:label="@string/title_activity_main"
+43-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:35:13-56
+44            android:parentActivityName="com.example.kevin.rockapp.HomeActivity"
+44-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:36:13-55
+45            android:screenOrientation="portrait" >
+45-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:37:13-49
+46            <meta-data
+46-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:39:13-41:74
+47                android:name="android.support.PARENT_ACTIVITY"
+47-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:40:17-63
+48                android:value="com.example.kevin.rockapp.MainActivity" />
+48-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:41:17-71
+49        </activity>
+50        <activity android:name="com.example.kevin.rockapp.SplashActivity" />
+50-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:45:9-52
+50-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:45:19-49
+51        <activity
+51-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:46:9-48:50
+52            android:name="com.example.kevin.rockapp.IntroActivity"
+52-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:47:13-42
+53            android:theme="@style/Theme.Intro" />
+53-->C:\Users\harve\Desktop\RockClassifier-master\app\src\main\AndroidManifest.xml:48:13-47
+54    </application>
+55
+56</manifest>
