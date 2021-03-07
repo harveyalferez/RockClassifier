@@ -1,4 +1,0 @@
-gabbro
-granite
-diorite
-granodiorite
